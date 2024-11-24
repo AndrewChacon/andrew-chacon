@@ -9,7 +9,6 @@
 
 body {
 	font-family: 'Roboto Mono', monospace;
-
 	background-color: #121212; /* Dark background */
 	color: #ffffff;
 }
@@ -19,9 +18,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: none; /* Dark charcoal background */
+	background-color: none;
 	padding: 55px 20px;
-	/* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); */
 	position: relative;
 }
 
@@ -86,5 +84,8 @@ body {
 
 	.navbar-toggle {
 		display: flex;
+	}
+
+	.navbar {
 	}
 }

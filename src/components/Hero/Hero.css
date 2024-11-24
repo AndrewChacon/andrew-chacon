@@ -50,3 +50,24 @@
 	background-color: #fff;
 	color: #3a2ff7;
 }
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+	.hero {
+		width: 90vw;
+	}
+
+	.hero-title {
+		font-size: 18vw;
+		margin-bottom: 50px;
+	}
+
+	.hero-desc {
+		width: 60vw;
+	}
+
+	.hero-button {
+		margin: 0;
+		margin-top: 20px;
+	}
+}
