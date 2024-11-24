@@ -15,7 +15,13 @@ const Hero = () => {
 				websites on the on my free time
 			</h1>
 
-			<button className='hero-button'>Github_</button>
+			<a
+				href='https://github.com/AndrewChacon'
+				className='hero-button'
+				target='_blank'
+				rel='noopener noreferrer'>
+				Github_
+			</a>
 		</div>
 	);
 };
