@@ -13,6 +13,8 @@ const Hero = () => {
 				Im just a chill guy that low key doesnt give a fuck and i make
 				websites on the on my free time
 			</p>
+
+			<button className='hero-button'>Github</button>
 		</div>
 	);
 };
