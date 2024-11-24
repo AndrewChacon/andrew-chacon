@@ -14,7 +14,7 @@ const Hero = () => {
 				websites on the on my free time
 			</p>
 
-			<button className='hero-button'>Github</button>
+			<button className='hero-button'>Github_</button>
 		</div>
 	);
 };
