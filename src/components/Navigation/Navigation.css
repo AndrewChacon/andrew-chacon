@@ -1,18 +1,5 @@
 /* Navbar.css */
 
-/* Reset */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body {
-	font-family: 'Roboto Mono', monospace;
-	background-color: #121212; /* Dark background */
-	color: #ffffff;
-}
-
 /* Navbar styles */
 .navbar {
 	display: flex;
@@ -87,5 +74,7 @@ body {
 	}
 
 	.navbar {
+		padding-top: 0;
+		margin: 0;
 	}
 }
