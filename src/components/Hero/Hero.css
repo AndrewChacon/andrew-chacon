@@ -28,7 +28,7 @@
 	color: #3a2ff7;
 	text-shadow: 0 0 15px rgba(58, 47, 247, 0.5),
 		0 0 30px rgba(58, 47, 247, 0.4), 0 0 45px rgba(58, 47, 247, 0.3);
-	overflow: hidden;
+	/* overflow: hidden; */
 	position: relative;
 }
 
@@ -64,20 +64,23 @@
 @media (max-width: 768px) {
 	.hero {
 		width: 90vw;
+		padding-top: 20vh;
 	}
 
 	.hero-title {
-		font-size: 18vw;
-		margin-bottom: 50px;
+		font-size: 16vw;
 	}
 
 	.hero-desc {
 		width: 60vw;
+		margin-top: 30px;
 	}
 
 	.hero-button {
 		margin: 0;
 		margin-top: 20px;
+		display: block;
+		width: 50vw;
 	}
 }
 
